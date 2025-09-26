@@ -94,6 +94,8 @@ public:
 
 int main()
 {
+    setlocale(LC_ALL, "rus");
+
     Fraction a(6, 8);
     Fraction b(1, 6);
 
